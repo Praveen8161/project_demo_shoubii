@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./Style/navBar.css" />
+    <link rel="stylesheet" href="./Style/Contactus.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./Scripts/ContactUs.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="nav_bar">
+        <!-- Icon  -->
+        <div class="nav_imag-container">
+          <img src="./Images/v.png" alt="logo" class="nav_image" />
+        </div>
+
+        <!-- Navigation contents -->
+        <div>
+          <ul class="nav_contents">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About.html">About Us</a></li>
+            <li><a href="./ContactUs.html">Contact Us</a></li>
+            <li><a href="./Career.html">Career</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav class="nav_bar_md">
+        <!-- Icon  -->
+        <div class="nav_imag-container_md">
+          <img src="./Images/v.png" alt="logo" class="nav_image_md" />
+        </div>
+
+        <!-- Navigation contents -->
+        <div>
+          <span class="menu"
+            ><img src="./Images/menu.svg" alt="menu" style="max-width: 30px"
+          /></span>
+        </div>
+
+        <div class="dropdown">
+          <ul class="nav_contents_md">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./About.html">About Us</a></li>
+            <li><a href="./ContactUs.html">Contact Us</a></li>
+            <li><a href="./Career.html">Career</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Images-->
+      <section class="contact_banner-image">
+        <div class="cs_banner_txt">Reach Us</div>
+      </section>
+
+      <!-- Company Details -->
+      <section class="company_details">
+        <!-- Phone and email and address -->
+        <div class="cs_section1">
+          <!-- Phone -->
+          <div>
+            <h1>Phone</h1>
+            <hr class="margin_bottom" />
+            <p class="cs_flex-row">
+              <span><i class="fa fa-phone"></i></span>
+              <span>+1-724-414-3858</span>
+            </p>
+          </div>
+
+          <!-- Email -->
+          <div>
+            <h1>Email</h1>
+            <hr class="margin_bottom" />
+            <p class="cs_flex-row">
+              <span><i class="fa fa-envelope"></i></span>
+              <span>hello@company.com</span>
+            </p>
+          </div>
+
+          <!-- Email -->
+          <div>
+            <h1>Social Media</h1>
+            <hr class="margin_bottom" />
+            <p class="cs_flex-row">
+              <img
+                src="https://skillicons.dev/icons?i=linkedin,instagram,twitter"
+                alt="social Media"
+                style="max-width: 100px; cursor: pointer"
+              />
+            </p>
+          </div>
+
+          <!-- USA -->
+          <div>
+            <h1>USA</h1>
+            <hr class="margin_bottom" />
+            <div class="cs_flex-row">
+              <p><i class="fa fa-map" aria-hidden="true"></i></p>
+              <address class="cs_flex-col">
+                <span>Raintree Corporate Center,</span>
+                <span>021245 North Pima Road,</span>
+                <span>Scottsdale, Arizona,</span>
+                <span>USA, 85260</span>
+              </address>
+            </div>
+          </div>
+
+          <!-- India -->
+          <div>
+            <h1>India</h1>
+            <hr class="margin_bottom" />
+            <div class="cs_flex-row">
+              <p><i class="fa fa-map" aria-hidden="true"></i></p>
+              <address class="cs_flex-col">
+                <span>Concorde Towers,</span>
+                <span>UB City,</span>
+                <span>1 Vittal Mallya Rd, Bangalore,</span>
+                <span>ndia, 560001</span>
+              </address>
+            </div>
+          </div>
+        </div>
+
+        <!-- Requirement Contact -->
+        <div class="cs_section2">
+          <h1>Let's Connect, Tell Us About Your Requirement</h1>
+          <p>
+            We are here to support you in translating your product ideas to
+            successful products in the market place. Are you looking for an
+            embedded development partner to travel with you throughout the
+            complete journey or support you in specific aspects? Your search
+            ends here. It shall be our privilege to be part of your product
+            development that can make our world a better place. Please share
+            your requirements or product ideas with us. Our solutions specialist
+            shall get in touch with you to discuss further.
+          </p>
+
+          <form class="cs_form">
+            <div class="cs_form_col">
+              <div class="cs_flex-row">
+                <p class="cs_flex-col">
+                  <label for="f_name">First Name</label>
+                  <input
+                    type="text"
+                    name="f_name"
+                    id="f_name"
+                    placeholder="First Name"
+                  />
+                </p>
+                <p class="cs_flex-col">
+                  <label for="l_name">Last Name</label>
+                  <input
+                    type="text"
+                    name="l_name"
+                    id="l_name"
+                    placeholder="Last Name"
+                  />
+                </p>
+              </div>
+
+              <div class="cs_flex-row">
+                <p class="cs_flex-col">
+                  <label for="f_name">Email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </p>
+
+                <p class="cs_flex-col">
+                  <label for="phone">Phone</label>
+                  <input
+                    type="number"
+                    name="phone"
+                    id="phone"
+                    placeholder="Phone"
+                  />
+                </p>
+              </div>
+              <div class="cs_flex-col">
+                <label for="service">Service</label>
+                <select name="service" id="service">
+                  <option value="Embedded Design Service">
+                    Embedded Design Service
+                  </option>
+                  <option value="Automation Service">Automation Service</option>
+                  <option value="Digital Service">Digital Service</option>
+                </select>
+              </div>
+              <div class="cs_flex-col">
+                <label for="comments">Comments</label>
+                <textarea
+                  name="comments"
+                  id="comments"
+                  cols="15"
+                  rows="2"
+                  placeholder="Comments"
+                ></textarea>
+              </div>
+              <button class="sub_btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const dropDown = document.querySelector(".dropdown");
+      const menu = document.querySelector(".menu");
+
+      menu.addEventListener("click", (e) => {
+        e.preventDefault();
+        dropDown.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
