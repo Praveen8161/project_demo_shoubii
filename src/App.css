@@ -1,3 +1,18 @@
 .text-shadow-default {
   text-shadow: 2px 2px 3px rgb(7, 179, 124);
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  width: 5px;
+  background-color: rgb(213, 213, 223);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: rgb(57, 57, 243);
+  border-radius: 99999px;
+}

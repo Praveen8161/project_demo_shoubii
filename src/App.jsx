@@ -5,11 +5,14 @@ import HomePage from "./Pages/HomePage";
 import ContactUs from "./Pages/ContactUs";
 import Career from "./Pages/Career";
 import AboutUs from "./Pages/AboutUs";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div>
-      <NavBar />
+      <>
+        <NavBar />
+      </>
 
       <main>
         <Routes>
@@ -19,6 +22,10 @@ function App() {
           <Route exact path="/about" element={<AboutUs />} />
         </Routes>
       </main>
+
+      <>
+        <Footer />
+      </>
     </div>
   );
 }

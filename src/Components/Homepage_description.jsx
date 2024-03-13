@@ -4,7 +4,7 @@ const Homepage_description = () => {
   return (
     <section className="flex flex-row flex-wrap items-center justify-center gap-5 mt-10 ">
       <div className=" max-w-[80%] sm:max-w-[40%] text-xl">
-        At <span className="font-semibold ">Vivian</span>, we transform ideas
+        At <span className="font-semibold ">Soft Sync</span>, we transform ideas
         into reality with a focus on optimization, technological advancement,
         and cost-effectiveness.
       </div>
@@ -18,7 +18,7 @@ const Homepage_description = () => {
 
       <div className="flex flex-col gap-4 max-w-[80%] sm:max-w-[40%] text-sm ">
         <p>
-          Welcome to Vivian, your partner in cutting-edge product development
+          Welcome to Soft Sync, your partner in cutting-edge product development
           services. Founded with a fervent passion for fostering innovation, we
           specialize in crafting cutting-edge hardware and software solutions,
           seamlessly deploying them for optimal performance, providing top-tier
@@ -26,7 +26,7 @@ const Homepage_description = () => {
         </p>
 
         <p>
-          At Vivian, we accelerate business progress through a blend of deep
+          At Soft Sync, we accelerate business progress through a blend of deep
           industry expertise and frictionless technology delivery. Our services
           span across diverse sectors, essential for shaping our lives every
           day.

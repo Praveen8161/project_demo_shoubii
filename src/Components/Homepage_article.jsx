@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
+import { Card, CardHeader, CardFooter, Image } from "@nextui-org/react";
 
 const Homepage_article = () => {
   return (
@@ -80,14 +80,9 @@ const Homepage_article = () => {
             src="https://cdn.pixabay.com/photo/2021/11/30/13/21/vintage-camera-6835351_960_720.jpg"
           />
           <CardFooter className="absolute bottom-0 z-10 justify-between bg-white/30 border-t-1 border-zinc-100/50">
-            <Button
-              className="text-tiny"
-              color="secondary"
-              radius="full"
-              size="sm"
-            >
+            <p className="px-3 py-1 text-xs font-semibold bg-blue-500 cursor-pointer rounded-xl">
               Read Now
-            </Button>
+            </p>
           </CardFooter>
         </Card>
 
@@ -118,9 +113,9 @@ const Homepage_article = () => {
                 src="/images/breathing-app-icon.jpeg"
               />
             </div>
-            <Button radius="full" size="sm">
-              Get App
-            </Button>
+            <p className="px-3 py-1 text-xs font-semibold text-white cursor-pointer bg-slate-600 rounded-xl">
+              Read Now
+            </p>
           </CardFooter>
         </Card>
       </div>

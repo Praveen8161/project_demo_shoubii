@@ -30,7 +30,7 @@ const NavBar = () => {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       shouldHideOnScroll
-      className="bg-slate-300"
+      className="bg-slate-400"
       classNames={{
         item: [
           "flex",
