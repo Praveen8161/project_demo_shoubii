@@ -55,7 +55,13 @@ const NavBar = () => {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">Logo</p>
+          <p className="px-2 py-2 font-bold bg-blue-300 border rounded-full text-inherit">
+            <img
+              src="/Images/s.svg"
+              alt="logo"
+              className=" max-w-[30px] drop-shadow-xl"
+            />
+          </p>
         </NavbarBrand>
       </NavbarContent>
 
