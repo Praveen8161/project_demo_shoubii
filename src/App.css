@@ -1,0 +1,126 @@
+.text-shadow-default {
+  text-shadow: 2px 2px 3px rgb(7, 179, 124);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  width: 5px;
+  background-color: rgb(213, 213, 223);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: rgb(57, 57, 243);
+  border-radius: 99999px;
+}
+
+.about_bgImg {
+  object-fit: cover;
+  max-width: 100vw;
+  width: 100%;
+  background-color: rgb(5, 106, 115);
+  background-image: url(https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-attachment: fixed;
+}
+
+.contact_bgImg {
+  object-fit: cover;
+  max-width: 100vw;
+  width: 100%;
+  background-color: rgb(5, 106, 115);
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg);
+  background-attachment: fixed;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pendulum_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100px;
+}
+
+.pendulum {
+  position: relative;
+  animation: 2s infinite linear alternate swing;
+}
+
+.line_left,
+.line_right {
+  position: absolute;
+  min-width: 2px;
+  height: 80px;
+  background-color: black;
+  transform-origin: top center;
+}
+
+.line_left {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.line_right {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.line_right::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  min-height: 7px;
+  min-width: 7px;
+  border-radius: 50%;
+  background-color: black;
+  top: -2.5px;
+  left: -2.5px;
+}
+
+.box {
+  position: absolute;
+  display: inline-block;
+  background-color: whitesmoke;
+  box-shadow: black 5px 5px 5px, black -1px -1px 5px;
+  min-width: 120px;
+  min-height: 80px;
+  top: 50px;
+  left: -60px;
+}
+
+.box_txt {
+  min-width: 100%;
+  min-height: 100%;
+  font-size: x-large;
+  padding-top: 10px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  2% {
+    transform: rotate(-20deg);
+  }
+
+  98% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(20deg);
+  }
+}
