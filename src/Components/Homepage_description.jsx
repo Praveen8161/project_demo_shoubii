@@ -2,7 +2,7 @@ import { Divider } from "@nextui-org/react";
 
 const Homepage_description = () => {
   return (
-    <section className="flex flex-row flex-wrap items-center justify-center gap-5 mt-10 ">
+    <section className="flex flex-row flex-wrap items-center justify-center gap-5 pb-8 mt-10">
       <div className=" max-w-[80%] sm:max-w-[40%] text-xl">
         At <span className="font-semibold ">Soft Sync</span>, we transform ideas
         into reality with a focus on optimization, technological advancement,

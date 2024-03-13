@@ -3,7 +3,7 @@ import Accordian_Footer from "./Accordian_Footer";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-around pt-5 pb-5 mt-10 sm:flex-row bg-slate-200">
+    <div className="flex flex-col flex-wrap items-center justify-around pt-5 pb-5 sm:flex-row bg-slate-200">
       <div className="min-w-[100vw] md:min-w-max sm:max-w-[500px] flex-grow lg:px-6 sm:px-2 flex">
         <Accordian_Footer />
       </div>
@@ -14,7 +14,7 @@ const Footer = () => {
           type="email"
           label="Email"
           variant="underlined"
-          defaultValue="example@gmail.com"
+          placeholder="example@gmail.com"
           className="flex-grow w-full min-w-[250px] max-w-[300px]"
         />
         <Button color="primary" className=" max-w-[100px]">

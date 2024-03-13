@@ -18,6 +18,7 @@ const NavBar = () => {
 
   const menuItems = ["Home", "Contact", "About", "Career"];
 
+  // Handle the navigation between the pages
   function handleNavigate(item) {
     if (item === "Home") {
       navigate("/");
@@ -70,7 +71,7 @@ const NavBar = () => {
             <Link
               color="foreground"
               onClick={() => handleNavigate(item)}
-              className="cursor-pointer "
+              className="font-semibold cursor-pointer hover:animate-pulse "
             >
               {item}
             </Link>

@@ -16,3 +16,27 @@
   background-color: rgb(57, 57, 243);
   border-radius: 99999px;
 }
+
+.about_bgImg {
+  object-fit: cover;
+  max-width: 100vw;
+  width: 100%;
+  background-color: rgb(5, 106, 115);
+  background-image: url(https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-attachment: fixed;
+}
+
+.contact_bgImg {
+  object-fit: cover;
+  max-width: 100vw;
+  width: 100%;
+  background-color: rgb(5, 106, 115);
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg);
+  background-attachment: fixed;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
